@@ -37,6 +37,8 @@ const (
 	tlsCrt    = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURIekNDQWdlZ0F3SUJBZ0lKQU1KZld6Mm81cWVnTUEwR0NTcUdTSWIzRFFFQkN3VUFNQ1l4RVRBUEJnTlYKQkFNTUNHNW5hVzU0YzNaak1SRXdEd1lEVlFRS0RBaHVaMmx1ZUhOMll6QWVGdzB4TnpBME1URXdNakF3TlRCYQpGdzB5TnpBME1Ea3dNakF3TlRCYU1DWXhFVEFQQmdOVkJBTU1DRzVuYVc1NGMzWmpNUkV3RHdZRFZRUUtEQWh1CloybHVlSE4yWXpDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTUgzVTYvY3ArODAKU3hJRjltSnlUcGI5RzBodnhsM0JMaGdQWDBTWjZ3d1lISGJXeTh2dmlCZjVwWTdvVHd0b2FPaTN1VFNsL2RtVwpvUi9XNm9GVWM5a2l6NlNXc3p6YWRXL2l2Q21LMmxOZUFVc2gvaXY0aTAvNXlreDJRNXZUT2tVL1dra2JPOW1OCjdSVTF0QW1KT3M0T1BVc3hZZkw2cnJJUzZPYktHS2UvYUVkek9QS2NPMDJ5NUxDeHM0TFhhWDIzU1l6TG1XYVAKYVZBallrN1NRZm1xUm5mYlF4RWlpaDFQWTFRRXgxWWs0RzA0VmtHUitrSVVMaWF0L291ZjQxY0dXRTZHMTF4NQpkV1BHeS9XcGtqRGlaM0UwekdNZnJBVUZibnErN1dhRTJCRzVoUVV3ZG9SQUtWTnMzaVhLRlRkT3hoRll5bnBwCjA3cDJVNS96ZHRrQ0F3RUFBYU5RTUU0d0hRWURWUjBPQkJZRUZCL2U5UnVna0Mwc0VNTTZ6enRCSjI1U1JxalMKTUI4R0ExVWRJd1FZTUJhQUZCL2U5UnVna0Mwc0VNTTZ6enRCSjI1U1JxalNNQXdHQTFVZEV3UUZNQU1CQWY4dwpEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBRys4MXdaSXRuMmFWSlFnejNkNmJvZW1nUXhSSHpaZDhNc1IrdFRvCnpJLy9ac1Nwc2FDR3F0TkdTaHVGKzB3TVZ4NjlpQ3lJTnJJb2J4K29NTHBsQzFQSk9uektSUUdvZEhYNFZaSUwKVlhxSFd2VStjK3ZtT0QxUEt3UjcwRi9rTXk2Yk4xMVI2amhIZ3RPZGdLKzdRczhRMVlUSC9RS2dMd3RJTFRHRwpTZlYxWFlmbnF1TXlZKzFzck00U3ZRSmRzdmFUQmJkZHE2RllpdjhXZFpIaG51ZGlSODdZcFgzOUlTSlFkOXF2CnR6OGthZTVqQVFEUWFiZnFsVWZNT1hmUnhyei96S2NvN3dMeWFMWTh1eVhEWUVIZmlHRWdablV0RjgxVlhDZUIKeU80UERBR0FuVmlXTndFM0NZcGI4RkNGelMyaVVVMDJaQWJRajlvUnYyUWNON1E9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
 	tlsKey    = "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRREI5MU92M0tmdk5Fc1MKQmZaaWNrNlcvUnRJYjhaZHdTNFlEMTlFbWVzTUdCeDIxc3ZMNzRnWCthV082RThMYUdqb3Q3azBwZjNabHFFZgoxdXFCVkhQWklzK2tsck04Mm5WdjRyd3BpdHBUWGdGTElmNHIrSXRQK2NwTWRrT2IwenBGUDFwSkd6dlpqZTBWCk5iUUppVHJPRGoxTE1XSHkrcTZ5RXVqbXloaW52MmhIY3pqeW5EdE5zdVN3c2JPQzEybDl0MG1NeTVsbWoybFEKSTJKTzBrSDVxa1ozMjBNUklvb2RUMk5VQk1kV0pPQnRPRlpCa2ZwQ0ZDNG1yZjZMbitOWEJsaE9odGRjZVhWagp4c3YxcVpJdzRtZHhOTXhqSDZ3RkJXNTZ2dTFtaE5nUnVZVUZNSGFFUUNsVGJONGx5aFUzVHNZUldNcDZhZE82CmRsT2Y4M2JaQWdNQkFBRUNnZ0VBRGU1WW1XSHN3ZFpzcWQrNXdYcGFRS2Z2SkxXNmRwTmdYeVFEZ0tiWlplWDUKYldPaUFZU3pycDBra2U0SGQxZEphYVdBYk5LYk45eUV1QWUwa2hOaHVxK3dZQzdlc3JreUJCWXgwMzRBamtwTApKMzFLaHhmejBZdXNSdStialg2UFNkZnlBUnd1b1VKN1M3R3V1NXlhbDZBWU1PVmNGcHFBbjVPU0hMbFpLZnNLClN3NXZyM3NKUjNyOENNWVZoUmQ0citGam9lMXlaczJhUHl2bno5c0U3T0ZCSVRGSVBKcE4veG53VUNpWW5vSEMKV2F2TzB5RCtPeTUyN2hBQ1FwaFVMVjRaZXV2bEZwd2ZlWkZveUhnc2YrM1FxeGhpdGtJb3NGakx2Y0xlL2xjZwpSVHNRUnU5OGJNUTdSakJpYU5kaURadjBaWEMvUUMvS054SEw0bXgxTFFLQmdRRHVDY0pUM2JBZmJRY2YvSGh3CjNxRzliNE9QTXpwOTl2ajUzWU1hZHo5Vlk1dm9RR3RGeFlwbTBRVm9MR1lkQ3BHK0lXaDdVVHBMV0JUeGtMSkYKd3EwcEFmRVhmdHB0anhmcyt0OExWVUFtSXJiM2hwUjZDUjJmYjFJWVZRWUJ4dUdzN0hWMmY3NnRZMVAzSEFnNwpGTDJNTnF3ZDd5VmlsVXdSTVptcmJKV3Qwd0tCZ1FEUW1qZlgzc1NWSWZtN1FQaVQvclhSOGJMM1B3V0lNa3NOCldJTVRYeDJmaG0vd0hOL0pNdCtEK2VWbGxjSXhLMmxSYlNTQ1NwU2hzRUVsMHNxWHZUa1FFQnJxN3RFZndRWU0KbGxNbDJQb0ovV2E5c2VYSTAzWWRNeC94Vm5sbzNaUG9MUGg4UmtKekJTWkhnMlB6cCs0VmlnUklBcGdYMXo3TwpMbHg0SEVtaEl3S0JnUURES1RVdVZYL2xCQnJuV3JQVXRuT2RRU1IzNytSeENtQXZYREgxTFBlOEpxTFkxSmdlCjZFc0U2VEtwcWwwK1NrQWJ4b0JIT3QyMGtFNzdqMHJhYnpaUmZNb1NIV3N3a0RWcGtuWDBjTHpiaDNMRGxvOTkKVHFQKzUrSkRHTktIK210a3Y2bStzaFcvU3NTNHdUN3VVWjdtcXB5TEhsdGtiRXVsZlNra3B5NUJDUUtCZ0RmUwpyVk1GZUZINGI1NGV1dWJQNk5Rdi9CYVNOT2JIbnJJSmw3b2RZQTRLcWZYMXBDVnhpY01Gb3MvV2pjc2V0T1puCmNMZTFRYVVyUjZQWmp3R2dUNTd1MEdWQ1Y1QkoxVmFVKzlkTEEwNmRFMXQ4T2VQT1F2TjVkUGplalVyMDBObjIKL3VBeTVTRm1wV0hKMVh1azJ0L0V1WFNUelNQRUpEaUV5NVlRNjl0RkFvR0JBT2tDcW1jVGZGYlpPTjJRK2JqdgpvVmQvSFpLR3YrbEhqcm5maVlhODVxcUszdWJmb0FSNGppR3V3TThqc3hZZW8vb0hQdHJDTkxINndsYlZNTUFGCmlRZG80ZUF3S0xxRHo1MUx4U2hMckwzUUtNQ1FuZVhkT0VjaEdqSW9zRG5Zekd5RTBpSzJGbWNvWHVSQU1QOHgKWDFreUlkazdENDFxSjQ5WlM1OEdBbXlLCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K"
 	tlscaName = "ca.crt"
+	// CSR masquerading as a private key or certificate
+	tlsBogus = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ2h6Q0NBVzhDQVFBd1FqRUxNQWtHQTFVRUJoTUNXRmd4RlRBVEJnTlZCQWNNREVSbFptRjFiSFFnUTJsMAplVEVjTUJvR0ExVUVDZ3dUUkdWbVlYVnNkQ0JEYjIxd1lXNTVJRXgwWkRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCCkJRQURnZ0VQQURDQ0FRb0NnZ0VCQU1IM1U2L2NwKzgwU3hJRjltSnlUcGI5RzBodnhsM0JMaGdQWDBTWjZ3d1kKSEhiV3k4dnZpQmY1cFk3b1R3dG9hT2kzdVRTbC9kbVdvUi9XNm9GVWM5a2l6NlNXc3p6YWRXL2l2Q21LMmxOZQpBVXNoL2l2NGkwLzV5a3gyUTV2VE9rVS9Xa2tiTzltTjdSVTF0QW1KT3M0T1BVc3hZZkw2cnJJUzZPYktHS2UvCmFFZHpPUEtjTzAyeTVMQ3hzNExYYVgyM1NZekxtV2FQYVZBallrN1NRZm1xUm5mYlF4RWlpaDFQWTFRRXgxWWsKNEcwNFZrR1Ira0lVTGlhdC9vdWY0MWNHV0U2RzExeDVkV1BHeS9XcGtqRGlaM0UwekdNZnJBVUZibnErN1dhRQoyQkc1aFFVd2RvUkFLVk5zM2lYS0ZUZE94aEZZeW5wcDA3cDJVNS96ZHRrQ0F3RUFBYUFBTUEwR0NTcUdTSWIzCkRRRUJDd1VBQTRJQkFRQ1ZrcThMTzlpRGdNcGRpakVLV0hUMWNoZWJZODRiZmlqbk5haC9GcXVRN0p5NnBrd20KRjZ1U0RqZ1ZuOWlQc045RlZMVzVsbnloUjgvQjMzSGtpV3NYYzRQSUNkc2lXSURNU2xXZ2habU84MmtiMTZSeQppZkxiTGlxZ1V6czIrb0pHUjA2aXFobWV5aHBudFNvTmZMdHZJZlhwYVZYcFZtODZtblp3RjFjcGhyaTF4WTB5CnkweHVvamE0MXQ5YUtEelhOdHdVckNuSUJESjE2eHd5aXJOVGJQdWJlZ3c4Qm4rdnZaRGY3YmpRNnAvUDRPbXcKNDEreTRzVEtpVGxYblNDTmtpTEhJNkFsYnErMWRSOWpJdU5mMFpxcGgwR3dOcjZHT0FvdnF0UkJHOC9nNE4zOAp0VnE3SUkyY28yQ2FpQ3g1RFJZa054VXNaRTJYZlRMaUVxNWEKLS0tLS1FTkQgQ0VSVElGSUNBVEUgUkVRVUVTVC0tLS0tCg=="
 )
 
 type MockQueue struct {
@@ -114,32 +116,37 @@ func buildGenericControllerForBackendSSL() *GenericController {
 	}
 }
 
-func buildCrtKeyAndCA() ([]byte, []byte, []byte, error) {
+func buildCrtKeyAndCA() ([]byte, []byte, []byte, []byte, error) {
 	// prepare
 	td, err := ioutil.TempDir("", "ssl")
 	if err != nil {
-		return nil, nil, nil, fmt.Errorf("error occurs while creating temp directory: %v", err)
+		return nil, nil, nil, nil, fmt.Errorf("error occurs while creating temp directory: %v", err)
 	}
 	ingress.DefaultSSLDirectory = td
 
 	dCrt, err := base64.StdEncoding.DecodeString(tlsCrt)
 	if err != nil {
-		return nil, nil, nil, err
+		return nil, nil, nil, nil, err
 	}
 
 	dKey, err := base64.StdEncoding.DecodeString(tlsKey)
 	if err != nil {
-		return nil, nil, nil, err
+		return nil, nil, nil, nil, err
 	}
 
 	dCa := dCrt
 
-	return dCrt, dKey, dCa, nil
+	dBogus, err := base64.StdEncoding.DecodeString(tlsBogus)
+	if err != nil {
+		return nil, nil, nil, nil, err
+	}
+
+	return dCrt, dKey, dCa, dBogus, nil
 }
 
 func TestSyncSecret(t *testing.T) {
 	// prepare for test
-	dCrt, dKey, dCa, err := buildCrtKeyAndCA()
+	dCrt, dKey, dCa, dBogus, err := buildCrtKeyAndCA()
 	if err != nil {
 		t.Fatalf("Unexpected error: %v", err)
 	}
@@ -151,6 +158,9 @@ func TestSyncSecret(t *testing.T) {
 		expectSuccess bool
 	}{
 		{"getPemCertificate_error", "default/foo_secret", map[string][]byte{api.TLSPrivateKeyKey: dKey}, false},
+		{"getPemCertificate_bogus_cert", "default/foo_secret", map[string][]byte{api.TLSCertKey: dBogus, api.TLSPrivateKeyKey: dKey, tlscaName: dCa}, false},
+		{"getPemCertificate_bogus_key", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dBogus, tlscaName: dCa}, false},
+		{"getPemCertificate_bogus_ca", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dKey, tlscaName: dBogus}, false},
 		{"normal_test", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dKey, tlscaName: dCa}, true},
 	}
 
@@ -184,7 +194,7 @@ func TestSyncSecret(t *testing.T) {
 
 func TestGetPemCertificate(t *testing.T) {
 	// prepare
-	dCrt, dKey, dCa, err := buildCrtKeyAndCA()
+	dCrt, dKey, dCa, dBogus, err := buildCrtKeyAndCA()
 	if err != nil {
 		t.Fatalf("Unexpected error: %v", err)
 	}
@@ -200,6 +210,8 @@ func TestGetPemCertificate(t *testing.T) {
 		{"data_not_complete_TLSCertKey_not_exist", "default/foo_secret", map[string][]byte{api.TLSPrivateKeyKey: dKey, tlscaName: dCa}, false},
 		{"data_not_complete_TLSCertKeyAndCA_not_exist", "default/foo_secret", map[string][]byte{api.TLSPrivateKeyKey: dKey}, true},
 		{"data_not_complete_TLSPrivateKeyKey_not_exist", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, tlscaName: dCa}, false},
+		{"data_not_complete_TLSPrivateKeyKey_not_a_key", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dBogus, tlscaName: dCa}, true},
+		{"data_not_complete_TLSCertKey_not_a_cert", "default/foo_secret", map[string][]byte{api.TLSCertKey: dBogus, api.TLSPrivateKeyKey: dKey, tlscaName: dCa}, true},
 		{"data_not_complete_TLSPrivateKeyKeyAndCA_not_exist", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt}, true},
 		{"data_not_complete_CA_not_exist", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dKey}, false},
 		{"normal_test", "default/foo_secret", map[string][]byte{api.TLSCertKey: dCrt, api.TLSPrivateKeyKey: dKey, tlscaName: dCa}, false},
